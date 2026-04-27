@@ -1,0 +1,67 @@
+
+
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.todo-row {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.items {
+  height: 30px;
+  width: 350px;
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding-left: 10px;
+}
+#adbtn
+{ cursor: pointer;
+ border-radius: 1rem; 
+ width: 70px; 
+ height: 30px;
+ } 
+#dlt-btn
+ { cursor: pointer; 
+  border-radius: 1rem; 
+  width: 70px; 
+  height: 30px;
+ }
+ #edit-btn
+ { cursor: pointer; 
+  border-radius: 1rem; 
+  width: 70px; 
+  height: 30px;
+ }
+
+.filter-buttons {
+  margin: 15px 0;
+}
+
+.filter-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  cursor: pointer; 
+  border-radius: 1rem; 
+  width: 70px; 
+  height: 30px;
+}
+#cmplt-btn
+{
+  width: 100px;
+}

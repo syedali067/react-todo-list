@@ -60,11 +60,18 @@ function saveEdit(index) {
   setEditText("");
 }
 
+
+
  function addTodo() {
   if (input.trim() === "") return;
 
   setTodos([...todos, { text: input.trim(), completed: false }]);
   setInput("");
+}
+
+function deleteTodo(indexToDelete) {
+  const updatedTodos = todos.filter((_, index) => index !== indexToDelete);
+  setTodos(updatedTodos);
 }
 
   function toggleComplete(indexToToggle) {

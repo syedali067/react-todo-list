@@ -4,6 +4,7 @@ Made by Ali</h2>
 
 ## 🌐 Live Demo
 👉 https://react-todo-list-qhnx.vercel.app/
+Open in Desktop View 
 # 📝 React Todo App
 
 A simple yet modern Todo Application built with React.js.  
